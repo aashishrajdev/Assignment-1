@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Styling & Formatting</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; background: #f4f4f4; }
+        h1, h2 { color: #333; text-align: center; }
+        .bold { font-weight: bold; }
+        .italic { font-style: italic; }
+        .underline { text-decoration: underline; }
+        .strike { text-decoration: line-through; }
+        .highlight { background-color: yellow; }
+        .monospace { font-family: monospace; }
+        .shadow { text-shadow: 2px 2px 5px gray; }
+        .bordered { border: 2px solid black; padding: 10px; }
+        .center { text-align: center; }
+        .uppercase { text-transform: uppercase; }
+        .colored { color: darkblue; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid black; padding: 10px; text-align: center; }
+        th { background: #ddd; }
+    </style>
+</head>
+<body>
+
+    <h1 class="shadow">HTML Formatting & Styling</h1>
+    
+    <h2>Text Styles</h2>
+    <p class="bold">This is bold text.</p>
+    <p class="italic">This is italic text.</p>
+    <p class="underline">This is underlined text.</p>
+    <p class="strike">This is strikethrough text.</p>
+    <p class="highlight">This text is highlighted.</p>
+    <p class="monospace">This is monospace text.</p>
+    <p class="uppercase">This text is in uppercase.</p>
+    <p class="colored">This is colored text.</p>
+
+    <h2>Lists</h2>
+    <h3>Ordered List:</h3>
+    <ol>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ol>
+
+    <h3>Unordered List:</h3>
+    <ul>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ul>
+
+    <h2>Tables</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Aashish</td>
+            <td>22</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>Rajabala</td>
+            <td>20</td>
+            <td>India</td>
+        </tr>
+    </table>
+
+    <h2>Multimedia</h2>
+    <h3>Image:</h3>
+    <img src="https://via.placeholder.com/400" alt="Placeholder Image" width="400">
+
+    <h3>Video:</h3>
+    <video width="400" controls>
+        <source src="sample.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h3>Audio:</h3>
+    <audio controls>
+        <source src="sample.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Forms</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        
+        <br><br>
+
+        <label for="country">Country:</label>
+        <select id="country">
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Hyperlinks</h2>
+    <p><a href="https://www.google.com" target="_blank">Click here to visit Google</a></p>
+
+</body>
+</html>
